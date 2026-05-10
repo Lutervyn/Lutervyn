@@ -8,7 +8,7 @@ interface SafariProps {
 }
 
 export default function Safari({ isDarkMode = true }: SafariProps) {
-  const [url, setUrl] = useState("https://danielprior.dev")
+  const [url, setUrl] = useState("https://lutervyn.com")
   const [isLoading, setIsLoading] = useState(false)
   const [activeTab, setActiveTab] = useState("home")
   const [wifiEnabled, setWifiEnabled] = useState(true)
@@ -47,22 +47,22 @@ export default function Safari({ isDarkMode = true }: SafariProps) {
   const socialLinks = [
     {
       title: "LinkedIn",
-      url: "https://www.linkedin.com/in/daniel-prior-53a679195/",
+      url: "https://www.linkedin.com/company/lutervyn",
       icon: "/linkedin.png",
     },
     {
       title: "GitHub",
-      url: "https://github.com/daprior",
+      url: "https://github.com/Lutervyn",
       icon: "/github.png",
     },
     {
       title: "YouTube",
-      url: "https://www.youtube.com/@DanielPrior0",
+      url: "https://www.youtube.com/@Lutervyn",
       icon: "/youtube.png",
     },
     {
       title: "Email",
-      url: "mailto:mail@danielprior.dk",
+      url: "mailto:contact@lutervyn.com",
       icon: "/mail.png",
     },
   ]
@@ -216,14 +216,14 @@ export default function Safari({ isDarkMode = true }: SafariProps) {
 
               <div className="mt-8 max-w-2xl mx-auto">
                 <div className={`p-6 rounded-lg ${cardBg}`}>
-                  <h3 className="text-xl font-semibold mb-4">Daniel Prior - Portfolio</h3>
+                  <h3 className="text-xl font-semibold mb-4">Lutervyn - Official Node</h3>
                   <p className="mb-4">
-                    Welcome to my portfolio website! I'm a frontend developer specializing in creating beautiful,
-                    responsive, and user-friendly web applications.
+                    Welcome to the Lutervyn official node. We specialize in advanced agentic AI,
+                    high-fidelity research, and professional-grade automation tools.
                   </p>
                   <p className="mb-4">
-                    With expertise in React, Next.js, TypeScript, and modern CSS frameworks, I build performant web
-                    experiences that users love.
+                    Our mission is to push the boundaries of AI research and provide seamless, powerful interfaces
+                    for complex data retrieval and analysis.
                   </p>
                   <div className="flex justify-end">
                     <button

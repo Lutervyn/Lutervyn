@@ -82,7 +82,7 @@ export default function LoginScreen({
             className="object-cover w-full h-full"
           />
         </div> */}
-        <h2 className="text-white text-2xl font-medium mb-6">Daniel</h2>
+        <h2 className="text-white text-2xl font-medium mb-6">Lutervyn</h2>
 
         <form onSubmit={handleSubmit} className="flex flex-col items-center">
           <Input

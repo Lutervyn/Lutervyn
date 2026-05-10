@@ -13,54 +13,34 @@ export default function Notes({ isDarkMode = true }: NotesProps) {
   const [notes, setNotes] = useState([
     {
       id: 1,
-      title: "About Me",
-      content: `# Daniel Prior
-Frontend Developer & Full Stack Engineer
+      title: "About",
+      content: `# Lutervyn
+Advanced Agentic AI & Research Node
 
-## Skills
-### Frontend
-- React/Next.js
-- Vue.js/Nuxt.js
-- TypeScript/JavaScript
-- Tailwind CSS/SCSS
-- UI/UX Design
-- Responsive Web Development
-- Vite/Webpack
-- Wordpress, Umbraco etc.
+## Expertise
+### AI & Intelligence
+- Large Language Models (LLMs)
+- Agentic Workflows
+- Multi-Agent Orchestration
+- Retrieval Augmented Generation (RAG)
+- Prompt Engineering
+- Performance Optimization
 
-### Backend
-- Node.js/Express
-- PHP/Laravel/Slim
-- Python/Django
-- Rust & GO (learning)
-- SQL (MySQL, PostgreSQL)
-- NoSQL (MongoDB)
-- RESTful APIs/GraphQL
+### Infrastructure
+- Next.js / React
+- Node.js / Python
+- Cloudflare Workers / Pages
+- Scalable Backend Systems
+- Professional-Grade UI/UX
+- Real-Time Data Streaming
 
-### Game Development
-- Unity/Unreal Engine
-- C# & C++
-- Game Design Principles
-- Game Mechanics & Systems
-- Blender 3D/3D Modeling
-- Animations for agricultural machinery and vehicles
-- Godot Engine
-
-### DevOps & Tools
-- Docker/Containerization
-- CI/CD Pipelines
-- Git/GitHub
-- Agile/Scrum Methodologies
-- AWS/Cloud Services
-- Linux/Unix
-
-## Experience
-Currently working as a Senior Full Stack Developer, focusing on building accessible, performant, and scalable web applications. Experienced in leading development teams and implementing best practices for modern web development.
+## Research Goals
+Focusing on building high-performance, professional-grade AI platforms that transform technical research through parallel infrastructure and deep reasoning capabilities.
 
 ## Contact
-Email: mail@danielprior.dk
-GitHub: github.com/daprior
-Portfolio: danielprior.dev`,
+Email: contact@lutervyn.com
+GitHub: github.com/Lutervyn
+Website: lutervyn.com`,
       date: "Today, 10:30 AM",
     },
     {
@@ -170,7 +150,7 @@ Portfolio: danielprior.dev`,
               <h2 className="font-medium">{selectedNote.title}</h2>
               <p className="text-xs text-gray-500">{selectedNote.date}</p>
             </div>
-            <div className="flex-1 p-4 overflow-auto">
+            <div className="flex-1 p-4 overflow-auto selectable">
               <textarea
                 className={`w-full h-full resize-none ${bgColor} ${textColor} focus:outline-none`}
                 value={selectedNote.content}

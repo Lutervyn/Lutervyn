@@ -1,6 +1,6 @@
-# 🍎 macOS Portfolio
+# 🛡️ Lutervyn Official
 
-A stunning, interactive macOS-inspired portfolio website built with Next.js and Tailwind CSS.
+A stunning, interactive macOS-inspired interface for the Lutervyn ecosystem, built with Next.js and Tailwind CSS.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Next.js](https://img.shields.io/badge/Next.js-13%2B-black)](https://nextjs.org/)
@@ -10,7 +10,7 @@ A stunning, interactive macOS-inspired portfolio website built with Next.js and 
 
 ## 👨‍💻 Demo
 
-Demo Link: [http://danielprior.dev](http://danielprior.dev)
+Demo Link: [https://lutervyn.com](https://lutervyn.com)
 
 ### ✨ Features
 
@@ -46,7 +46,7 @@ Demo Link: [http://danielprior.dev](http://danielprior.dev)
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/daprior/danielprior-macos.git
+git clone https://github.com/Lutervyn/lutervyn-official.git
 cd macos-portfolio
 
 2. Install 
@@ -106,14 +106,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/daprior/danielprior-macos/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Lutervyn/lutervyn-official/issues).
 
 ## 📧 Contact
 
-Daniel Prior - [mail@danielprior.dk](mailto:mail@danielprior.dk)
+Lutervyn - [contact@lutervyn.com](mailto:contact@lutervyn.com)
 
-Project Link: [https://github.com/daprior/danielprior-macos](https://github.com/daprior/danielprior-macos)
+Project Link: [https://github.com/Lutervyn/lutervyn-official](https://github.com/Lutervyn/lutervyn-official)
 
 ---
 
-<p align="center"><sub>Made with ❤️ by Daniel</sub></p>
+<p align="center"><sub>Made with ❤️ by Lutervyn</sub></p>

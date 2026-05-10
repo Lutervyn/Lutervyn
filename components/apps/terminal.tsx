@@ -92,7 +92,7 @@ export default function Terminal({ isDarkMode = true }: TerminalProps) {
     const mainCommand = args[0]
 
     // Add command to history
-    setHistory((prev) => [...prev, `daniel@macbook-pro ~ $ ${cmd}`, ""])
+    setHistory((prev) => [...prev, `lutervyn@official-node ~ $ ${cmd}`, ""])
 
     // Process command
     switch (mainCommand) {
@@ -131,15 +131,15 @@ export default function Terminal({ isDarkMode = true }: TerminalProps) {
         break
 
       case "whoami":
-        setHistory((prev) => [...prev, "daniel", ""])
+        setHistory((prev) => [...prev, "lutervyn", ""])
         break
 
       case "about":
         setHistory((prev) => [
           ...prev,
           "┌─────────────────────────────────────┐",
-          "│ Daniel Prior                        │",
-          "│ Frontend Developer & UI/UX Designer │",
+          "│ Lutervyn                            │",
+          "│ Advanced Agentic AI & Research      │",
           "└─────────────────────────────────────┘",
           "",
           "I'm a passionate web developer with expertise in",
@@ -207,10 +207,10 @@ export default function Terminal({ isDarkMode = true }: TerminalProps) {
           "│ Contact │",
           "└─────────┘",
           "",
-          "Email: mail@danielprior.dk",
-          "GitHub: github.com/daprior",
-          "LinkedIn: linkedin.com/in/daniel-prior-53a679195/",
-          "Website: danielprior.dev",
+          "Email: contact@lutervyn.com",
+          "GitHub: github.com/Lutervyn",
+          "LinkedIn: linkedin.com/company/lutervyn",
+          "Website: lutervyn.com",
           "",
         ])
         break
@@ -226,7 +226,7 @@ export default function Terminal({ isDarkMode = true }: TerminalProps) {
   }
 
   return (
-    <div ref={terminalRef} className={`h-full ${bgColor} ${textColor} p-4 font-mono text-sm overflow-auto`}>
+    <div ref={terminalRef} className={`h-full ${bgColor} ${textColor} p-4 font-mono text-sm overflow-auto selectable`}>
       {history.map((line, index) => (
         <div key={index} className="whitespace-pre-wrap">
           {line}
@@ -234,7 +234,7 @@ export default function Terminal({ isDarkMode = true }: TerminalProps) {
       ))}
 
       <div className="flex">
-        <span className="mr-2">daniel@macbook-pro ~ $</span>
+        <span className="mr-2">lutervyn@official-node ~ $</span>
         <input
           ref={inputRef}
           type="text"
