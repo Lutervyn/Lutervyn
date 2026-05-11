@@ -48,22 +48,22 @@ export default function Safari({ isDarkMode = true }: SafariProps) {
     {
       title: "LinkedIn",
       url: "https://www.linkedin.com/company/lutervyn",
-      icon: "/linkedin.png",
+      icon: "/Lutervyn/linkedin.png",
     },
     {
       title: "GitHub",
       url: "https://github.com/Lutervyn",
-      icon: "/github.png",
+      icon: "/Lutervyn/github.png",
     },
     {
       title: "YouTube",
       url: "https://www.youtube.com/@Lutervyn",
-      icon: "/youtube.png",
+      icon: "/Lutervyn/youtube.png",
     },
     {
       title: "Email",
       url: "mailto:contact@lutervyn.com",
-      icon: "/mail.png",
+      icon: "/Lutervyn/mail.png",
     },
   ]
 
@@ -71,32 +71,32 @@ export default function Safari({ isDarkMode = true }: SafariProps) {
     {
       title: "GitHub",
       url: "https://github.com",
-      icon: "/github.png",
+      icon: "/Lutervyn/github.png",
     },
     {
       title: "LinkedIn",
       url: "https://linkedin.com",
-      icon: "/linkedin.png",
+      icon: "/Lutervyn/linkedin.png",
     },
     {
       title: "YouTube",
       url: "https://youtube.com",
-      icon: "/youtube.png",
+      icon: "/Lutervyn/youtube.png",
     },
     {
       title: "Reddit",
       url: "https://reddit.com",
-      icon: "/reddit.png",
+      icon: "/Lutervyn/reddit.png",
     },
     {
       title: "ChatGPT",
       url: "https://chatgpt.com",
-      icon: "/chatgpt.png",
+      icon: "/Lutervyn/chatgpt.png",
     },
     {
       title: "Stack Overflow",
       url: "https://stackoverflow.com",
-      icon: "/stackoverflow.png",
+      icon: "/Lutervyn/stackoverflow.png",
     },
   ]
 

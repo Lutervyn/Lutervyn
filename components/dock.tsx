@@ -8,16 +8,16 @@ import type { AppWindow } from "@/types"
 
 // Updated app list with Snake game
 const dockApps = [
-  { id: "launchpad", title: "Launchpad", icon: "/launchpad.png", component: "Launchpad", isSystem: true },
-  { id: "safari", title: "Safari", icon: "/safari.png", component: "Safari" },
-  { id: "mail", title: "Mail", icon: "/mail.png", component: "Mail" },
-  { id: "vscode", title: "VS Code", icon: "/vscode.png", component: "VSCode" },
-  { id: "notes", title: "Notes", icon: "/notes.png", component: "Notes" },
-  { id: "facetime", title: "FaceTime", icon: "/facetime.png", component: "FaceTime" },
-  { id: "terminal", title: "Terminal", icon: "/terminal.png", component: "Terminal" },
-  { id: "github", title: "GitHub", icon: "/github.png", component: "GitHub" },
-  { id: "youtube", title: "YouTube", icon: "/youtube.png", component: "YouTube" },
-  { id: "spotify", title: "Spotify", icon: "/spotify.png", component: "Spotify" },
+  { id: "launchpad", title: "Launchpad", icon: "/Lutervyn/launchpad.png", component: "Launchpad", isSystem: true },
+  { id: "safari", title: "Safari", icon: "/Lutervyn/safari.png", component: "Safari" },
+  { id: "mail", title: "Mail", icon: "/Lutervyn/mail.png", component: "Mail" },
+  { id: "vscode", title: "VS Code", icon: "/Lutervyn/vscode.png", component: "VSCode" },
+  { id: "notes", title: "Notes", icon: "/Lutervyn/notes.png", component: "Notes" },
+  { id: "facetime", title: "FaceTime", icon: "/Lutervyn/facetime.png", component: "FaceTime" },
+  { id: "terminal", title: "Terminal", icon: "/Lutervyn/terminal.png", component: "Terminal" },
+  { id: "github", title: "GitHub", icon: "/Lutervyn/github.png", component: "GitHub" },
+  { id: "youtube", title: "YouTube", icon: "/Lutervyn/youtube.png", component: "YouTube" },
+  { id: "spotify", title: "Spotify", icon: "/Lutervyn/spotify.png", component: "Spotify" },
 ]
 
 interface DockProps {

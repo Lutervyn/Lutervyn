@@ -25,6 +25,8 @@ const nextConfig = {
     parallelServerCompiles: true,
   },
   output: 'export',
+  basePath: '/Lutervyn',
+  assetPrefix: '/Lutervyn',
 }
 
 if (userConfig) {
