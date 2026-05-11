@@ -10,7 +10,7 @@ interface WeatherProps {
 }
 
 // Mock weather data for different cities
-const weatherData = {
+const weatherData: Record<string, any> = {
   "New York": {
     current: {
       temp: 18,
