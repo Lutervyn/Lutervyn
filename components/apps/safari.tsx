@@ -48,22 +48,22 @@ export default function Safari({ isDarkMode = true }: SafariProps) {
     {
       title: "LinkedIn",
       url: "https://www.linkedin.com/company/lutervyn",
-      icon: "/Lutervyn/linkedin.png",
+      icon: "/linkedin.png",
     },
     {
       title: "GitHub",
       url: "https://github.com/Lutervyn",
-      icon: "/Lutervyn/github.png",
+      icon: "/github.png",
     },
     {
       title: "YouTube",
       url: "https://www.youtube.com/@Lutervyn",
-      icon: "/Lutervyn/youtube.png",
+      icon: "/youtube.png",
     },
     {
       title: "Email",
       url: "mailto:contact@lutervyn.com",
-      icon: "/Lutervyn/mail.png",
+      icon: "/mail.png",
     },
   ]
 
@@ -71,32 +71,32 @@ export default function Safari({ isDarkMode = true }: SafariProps) {
     {
       title: "GitHub",
       url: "https://github.com",
-      icon: "/Lutervyn/github.png",
+      icon: "/github.png",
     },
     {
       title: "LinkedIn",
       url: "https://linkedin.com",
-      icon: "/Lutervyn/linkedin.png",
+      icon: "/linkedin.png",
     },
     {
       title: "YouTube",
       url: "https://youtube.com",
-      icon: "/Lutervyn/youtube.png",
+      icon: "/youtube.png",
     },
     {
       title: "Reddit",
       url: "https://reddit.com",
-      icon: "/Lutervyn/reddit.png",
+      icon: "/reddit.png",
     },
     {
       title: "ChatGPT",
       url: "https://chatgpt.com",
-      icon: "/Lutervyn/chatgpt.png",
+      icon: "/chatgpt.png",
     },
     {
       title: "Stack Overflow",
       url: "https://stackoverflow.com",
-      icon: "/Lutervyn/stackoverflow.png",
+      icon: "/stackoverflow.png",
     },
   ]
 
@@ -190,7 +190,7 @@ export default function Safari({ isDarkMode = true }: SafariProps) {
                     onClick={() => setUrl(link.url)}
                   >
                     <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center mb-2 overflow-hidden">
-                      <img src={link.icon || "/Lutervyn/placeholder.svg"} alt={link.title} className="w-8 h-8 object-contain" />
+                      <img src={link.icon || "/placeholder.svg"} alt={link.title} className="w-8 h-8 object-contain" />
                     </div>
                     <span className="text-sm text-center">{link.title}</span>
                   </div>
@@ -207,7 +207,7 @@ export default function Safari({ isDarkMode = true }: SafariProps) {
                     onClick={() => setUrl(site.url)}
                   >
                     <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center mb-2 overflow-hidden">
-                      <img src={site.icon || "/Lutervyn/placeholder.svg"} alt={site.title} className="w-8 h-8 object-contain" />
+                      <img src={site.icon || "/placeholder.svg"} alt={site.title} className="w-8 h-8 object-contain" />
                     </div>
                     <span className="text-sm text-center">{site.title}</span>
                   </div>

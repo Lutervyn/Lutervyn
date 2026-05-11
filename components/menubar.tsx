@@ -232,7 +232,7 @@ export default function Menubar({
 
         <button onClick={onControlCenterClick} className="flex items-center justify-center">
           <img
-            src="/Lutervyn/control-center-icon.webp"
+            src="/control-center-icon.webp"
             alt="Control Center"
             className="w-4 h-4"
             style={{

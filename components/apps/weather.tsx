@@ -10,7 +10,7 @@ interface WeatherProps {
 }
 
 // Mock weather data for different cities
-const weatherData: Record<string, any> = {
+const weatherData = {
   "New York": {
     current: {
       temp: 18,
@@ -434,7 +434,7 @@ export default function Weather({ isDarkMode = true }: WeatherProps) {
         <div className="px-6 mt-4">
           <h3 className="text-lg font-medium mb-3">5-Day Forecast</h3>
           <div className={`grid grid-cols-5 gap-2 ${cardBg} rounded-lg border ${borderColor} p-4`}>
-            {weather.forecast.map((day: any, index: number) => (
+            {weather.forecast.map((day, index) => (
               <div key={index} className="flex flex-col items-center">
                 <p className="font-medium">{day.day}</p>
                 <div className="my-2">
@@ -450,7 +450,7 @@ export default function Weather({ isDarkMode = true }: WeatherProps) {
         <div className="px-6 mt-6">
           <h3 className="text-lg font-medium mb-3">Popular Cities</h3>
           <div className="flex flex-wrap gap-2">
-            {Object.keys(weatherData).map((cityName: string) => (
+            {Object.keys(weatherData).map((cityName) => (
               <Button
                 key={cityName}
                 variant={city === cityName ? "default" : "outline"}

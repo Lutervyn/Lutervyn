@@ -55,7 +55,7 @@ export default function LoginScreen({
   });
 
   // Choose wallpaper based on dark/light mode
-  const wallpaper = isDarkMode ? "/Lutervyn/wallpaper-night.jpg" : "/Lutervyn/wallpaper-day.jpg";
+  const wallpaper = isDarkMode ? "/wallpaper-night.jpg" : "/wallpaper-day.jpg";
 
   return (
     <div
@@ -75,7 +75,7 @@ export default function LoginScreen({
         </div>
         {/* <div className="w-24 h-24 rounded-full overflow-hidden bg-gray-300 flex items-center justify-center mb-4">
           <Image
-            src="/Lutervyn/letter-d.png"
+            src="/letter-d.png"
             alt="User avatar"
             width={96}
             height={96}

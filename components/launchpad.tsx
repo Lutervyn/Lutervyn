@@ -5,17 +5,17 @@ import type { AppWindow } from "@/types"
 
 // Same apps as dock, except launchpad itself
 const launchpadApps = [
-  { id: "safari", title: "Safari", icon: "/Lutervyn/safari.png", component: "Safari" },
-  { id: "mail", title: "Mail", icon: "/Lutervyn/mail.png", component: "Mail" },
-  { id: "vscode", title: "VS Code", icon: "/Lutervyn/vscode.png", component: "VSCode" },
-  { id: "notes", title: "Notes", icon: "/Lutervyn/notes.png", component: "Notes" },
-  { id: "facetime", title: "FaceTime", icon: "/Lutervyn/facetime.png", component: "FaceTime" },
-  { id: "terminal", title: "Terminal", icon: "/Lutervyn/terminal.png", component: "Terminal" },
-  { id: "github", title: "GitHub", icon: "/Lutervyn/github.png", component: "GitHub" },
-  { id: "youtube", title: "YouTube", icon: "/Lutervyn/youtube.png", component: "YouTube" },
-  { id: "spotify", title: "Spotify", icon: "/Lutervyn/spotify.png", component: "Spotify" },
-  { id: "snake", title: "Snake", icon: "/Lutervyn/snake.png", component: "Snake" },
-  { id: "weather", title: "Weather", icon: "/Lutervyn/weather.png", component: "Weather" },
+  { id: "safari", title: "Safari", icon: "/safari.png", component: "Safari" },
+  { id: "mail", title: "Mail", icon: "/mail.png", component: "Mail" },
+  { id: "vscode", title: "VS Code", icon: "/vscode.png", component: "VSCode" },
+  { id: "notes", title: "Notes", icon: "/notes.png", component: "Notes" },
+  { id: "facetime", title: "FaceTime", icon: "/facetime.png", component: "FaceTime" },
+  { id: "terminal", title: "Terminal", icon: "/terminal.png", component: "Terminal" },
+  { id: "github", title: "GitHub", icon: "/github.png", component: "GitHub" },
+  { id: "youtube", title: "YouTube", icon: "/youtube.png", component: "YouTube" },
+  { id: "spotify", title: "Spotify", icon: "/spotify.png", component: "Spotify" },
+  { id: "snake", title: "Snake", icon: "/snake.png", component: "Snake" },
+  { id: "weather", title: "Weather", icon: "/weather.png", component: "Weather" },
 ]
 
 interface LaunchpadProps {
@@ -99,7 +99,7 @@ export default function Launchpad({ onAppClick, onClose }: LaunchpadProps) {
               onClick={() => handleAppClick(app)}
             >
               <div className="w-16 h-16 flex items-center justify-center mb-2 rounded-xl group-hover:bg-white/20 transition-colors">
-                <img src={app.icon || "/Lutervyn/placeholder.svg"} alt={app.title} className="w-12 h-12 object-contain" />
+                <img src={app.icon || "/placeholder.svg"} alt={app.title} className="w-12 h-12 object-contain" />
               </div>
               <span className="text-white text-sm text-center">{app.title}</span>
             </div>
