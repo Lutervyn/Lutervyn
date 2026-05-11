@@ -75,7 +75,7 @@ export default function LoginScreen({
         </div>
         {/* <div className="w-24 h-24 rounded-full overflow-hidden bg-gray-300 flex items-center justify-center mb-4">
           <Image
-            src="/letter-d.png"
+            src="/Lutervyn/letter-d.png"
             alt="User avatar"
             width={96}
             height={96}

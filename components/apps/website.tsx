@@ -30,7 +30,7 @@ export default function Website() {
         {websites.map((site, index) => (
           <div key={index} className="border rounded-lg overflow-hidden hover:shadow-md transition-shadow">
             <div className="h-40 overflow-hidden">
-              <img src={site.image || "/placeholder.svg"} alt={site.title} className="w-full h-full object-cover" />
+              <img src={site.image || "/Lutervyn/placeholder.svg"} alt={site.title} className="w-full h-full object-cover" />
             </div>
             <div className="p-4">
               <h3 className="text-lg font-semibold mb-2">{site.title}</h3>

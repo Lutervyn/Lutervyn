@@ -140,7 +140,7 @@ export default function Dock({ onAppClick, onLaunchpadClick, activeAppIds, isDar
               >
                 <div className="w-14 h-14 flex items-center justify-center">
                   <img
-                    src={app.icon || "/placeholder.svg"}
+                    src={app.icon || "/Lutervyn/placeholder.svg"}
                     alt={app.title}
                     className="w-12 h-12 object-contain"
                     draggable="false"
@@ -186,7 +186,7 @@ export default function Dock({ onAppClick, onLaunchpadClick, activeAppIds, isDar
                 }}
               >
                 <img
-                  src={app.icon || "/placeholder.svg"}
+                  src={app.icon || "/Lutervyn/placeholder.svg"}
                   alt={app.title}
                   className={`object-contain ${isMobile ? "w-14 h-14" : "w-12 h-12"}`}
                   draggable="false"

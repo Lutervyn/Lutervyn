@@ -99,7 +99,7 @@ export default function Launchpad({ onAppClick, onClose }: LaunchpadProps) {
               onClick={() => handleAppClick(app)}
             >
               <div className="w-16 h-16 flex items-center justify-center mb-2 rounded-xl group-hover:bg-white/20 transition-colors">
-                <img src={app.icon || "/placeholder.svg"} alt={app.title} className="w-12 h-12 object-contain" />
+                <img src={app.icon || "/Lutervyn/placeholder.svg"} alt={app.title} className="w-12 h-12 object-contain" />
               </div>
               <span className="text-white text-sm text-center">{app.title}</span>
             </div>

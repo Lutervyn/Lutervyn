@@ -120,7 +120,7 @@ export default function Music() {
       <div className="flex flex-col items-center">
         <div className="w-64 h-64 rounded-lg overflow-hidden mb-6">
           <img
-            src={currentTrack.cover || "/placeholder.svg"}
+            src={currentTrack.cover || "/Lutervyn/placeholder.svg"}
             alt={currentTrack.title}
             className="w-full h-full object-cover"
           />

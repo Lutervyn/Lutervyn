@@ -26,24 +26,24 @@ export default function Spotify({ isDarkMode = true }: SpotifyProps) {
     {
       title: "Lofi Study Beat",
       artist: "Chill Artist",
-      cover: "/cozy-corner-beats.png",
-      file: "/lofi-study-112191.mp3",
+      cover: "/Lutervyn/cozy-corner-beats.png",
+      file: "/Lutervyn/lofi-study-112191.mp3",
       duration: "3:42",
     },
     {
       title: "Acoustic Breeze",
       artist: "Benjamin Tissot",
-      cover: "/cool-blue-jazz.png",
+      cover: "/Lutervyn/cool-blue-jazz.png",
       // Fallback to the first track if the second one isn't available
-      file: "/lofi-study-112191.mp3",
+      file: "/Lutervyn/lofi-study-112191.mp3",
       duration: "2:56",
     },
     {
       title: "Sunny Morning",
       artist: "Alex Productions",
-      cover: "/grand-piano-keys.png",
+      cover: "/Lutervyn/grand-piano-keys.png",
       // Fallback to the first track if the third one isn't available
-      file: "/lofi-study-112191.mp3",
+      file: "/Lutervyn/lofi-study-112191.mp3",
       duration: "4:10",
     },
   ]
@@ -216,7 +216,7 @@ export default function Spotify({ isDarkMode = true }: SpotifyProps) {
       {/* Header */}
       <div className={`${secondaryBg} p-4 flex items-center justify-between`}>
         <div className="flex items-center">
-          <img src="/spotify.png" alt="Spotify" className="w-8 h-8 mr-3" />
+          <img src="/Lutervyn/spotify.png" alt="Spotify" className="w-8 h-8 mr-3" />
           <h2 className="font-semibold">Spotify</h2>
         </div>
         <div className="flex space-x-2">
@@ -233,7 +233,7 @@ export default function Spotify({ isDarkMode = true }: SpotifyProps) {
       <div className="flex-1 flex flex-col items-center justify-center p-6">
         <div className="w-48 h-48 mb-6 rounded-md overflow-hidden shadow-lg">
           <img
-            src={currentTrack.cover || "/placeholder.svg"}
+            src={currentTrack.cover || "/Lutervyn/placeholder.svg"}
             alt={`${currentTrack.title} cover`}
             className="w-full h-full object-cover"
           />
@@ -325,7 +325,7 @@ export default function Spotify({ isDarkMode = true }: SpotifyProps) {
               onClick={() => selectTrack(index)}
             >
               <div className="w-10 h-10 mr-3 rounded overflow-hidden">
-                <img src={track.cover || "/placeholder.svg"} alt={track.title} className="w-full h-full object-cover" />
+                <img src={track.cover || "/Lutervyn/placeholder.svg"} alt={track.title} className="w-full h-full object-cover" />
               </div>
               <div className="flex-1">
                 <p className={`text-sm font-medium ${currentTrackIndex === index ? "text-green-500" : ""}`}>

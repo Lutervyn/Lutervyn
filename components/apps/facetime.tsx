@@ -118,7 +118,7 @@ export default function FaceTime({ isDarkMode = true }: FaceTimeProps) {
             {capturedPhotos.map((photo, index) => (
               <div key={index} className="relative group">
                 <img
-                  src={photo || "/placeholder.svg"}
+                  src={photo || "/Lutervyn/placeholder.svg"}
                   alt={`Captured photo ${index + 1}`}
                   className="h-24 w-auto rounded"
                 />
