@@ -40,9 +40,9 @@ interface WindowProps {
   isDarkMode: boolean
 }
 
-export default function Window({ window, isActive, onClose, onFocus, isDarkMode }: WindowProps) {
-  const [position, setPosition] = useState(window.position)
-  const [size, setSize] = useState(window.size)
+export default function Window({ window: appWindow, isActive, onClose, onFocus, isDarkMode }: WindowProps) {
+  const [position, setPosition] = useState(appWindow.position)
+  const [size, setSize] = useState(appWindow.size)
   const [isDragging, setIsDragging] = useState(false)
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 })
   const [isMaximized, setIsMaximized] = useState(false)
@@ -54,7 +54,7 @@ export default function Window({ window, isActive, onClose, onFocus, isDarkMode 
 
   const windowRef = useRef<HTMLDivElement>(null)
 
-  const AppComponent = componentMap[window.component]
+  const AppComponent = componentMap[appWindow.component]
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
@@ -232,7 +232,7 @@ export default function Window({ window, isActive, onClose, onFocus, isDarkMode 
           </button>
         </div>
 
-        <div className={`flex-1 text-center text-sm font-medium truncate ${textClass}`}>{window.title}</div>
+        <div className={`flex-1 text-center text-sm font-medium truncate ${textClass}`}>{appWindow.title}</div>
 
         <div className="w-16">{/* Spacer to balance the title */}</div>
       </div>
